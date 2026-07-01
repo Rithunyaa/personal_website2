@@ -11,7 +11,6 @@ html, body {
     overflow-y: auto;
 }
 
-
 body {
     background-image:
         url("assets/homepagebg.png"),
@@ -21,12 +20,10 @@ body {
     background-position: left top, right top;
 }
 
-
 nav {
     position: relative;
     z-index: 10;
 }
-
 
 nav a {
     text-decoration: none;
@@ -35,10 +32,8 @@ nav a {
 .page-wrapper {
     width: 1200px;
     min-height: 900px;
-
     margin: 40px auto;
     padding: 60px;
-
     background-image: url("assets/maincontentpanel.png");
     background-repeat: no-repeat;
     background-size: cover;

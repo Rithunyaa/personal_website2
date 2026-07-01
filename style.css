@@ -14,8 +14,8 @@ html, body {
 
 body {
     background-image:
-        url("assets/aboutmebg.webp"),
-        url("assets/aboutmebg.webp");
+        url("assets/homepagebg.png"),
+        url("assets/homepagebg.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 50% 100%, 50% 100%;
     background-position: left top, right top;
@@ -30,4 +30,17 @@ nav {
 
 nav a {
     text-decoration: none;
+}
+
+.page-wrapper {
+    width: 1200px;
+    min-height: 900px;
+
+    margin: 40px auto;
+    padding: 60px;
+
+    background-image: url("assets/maincontentpanel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

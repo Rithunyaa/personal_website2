@@ -44,8 +44,8 @@ nav a {
     position: relative;
     width: 300px;   /* adjust size */
     height: 375px;
-    top: -700px;
-    right: -760px;
+    bottom: 700px;
+    left: 760px;
 }
 
 .pfp {
@@ -66,4 +66,38 @@ nav a {
 
 .pfp-container:hover .pfp.normal {
     opacity: 0;
+}
+
+.custom-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+
+    background-color: #a2e425;
+    border: 2px solid #2f440c;
+    border-radius: 10px;
+
+    color: #2f440c;
+    font-size: 18px;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    position: relative;
+    bottom: 1100px;
+    left: 450px;
+
+    transition: 0.2s;
+}
+
+.custom-button:hover {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.custom-button:hover {
+    transform: scale(1.07);
 }
